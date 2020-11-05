@@ -1,6 +1,9 @@
 from .target import Target, TargetStates, action_valid_decorator_factory
 from .dummy_target import DummyTarget
 from .openocd_target import *
+from .xsdb_target import *
+from .dmon_target import *
+from .inception_target import *
 from .gdb_target import *
 from .jlink_target import *
 from .qemu_target import *
